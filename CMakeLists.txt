@@ -11,6 +11,6 @@ add_subdirectory(src/examples)
 ### Debian Package generation
 set(CPACK_GENERATOR "DEB")
 set(CPACK_PACKAGE_VERSION "${MPSSE_PKG_VERSION}")
-set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Franz Flasch") #required
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Franz Flasch")
 set(CPACK_DEBIAN_PACKAGE_DEPENDS "libftdi1, libftdi-dev" )
 include(CPack)
